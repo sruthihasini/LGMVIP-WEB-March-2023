@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background: rgb(192, 233, 78);
+    background: linear-gradient(90deg, rgb(13, 209, 39) 0%, rgb(214, 231, 194) 42%, rgb(200, 230, 118)100%);
+}
+
+h1 {
+    color: rgb(255, 241, 255);
+    font-family: "roboto";
+    font-weight: bold;
+    font-style: italic;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.button {
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid rgb(121, 52, 52);
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.row {
+    margin: 8px 0;
+}
+
+.row input {
+    width: 291px;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid rgb(18, 20, 121);
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container {
+    width: 500px;
+    background: rgb(186, 100, 197);
+    background: linear-gradient(90deg, rgba(63, 94, 251, 1) 0%, rgb(156, 139, 196) 100%);
+    /* display: inline; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: rgb(156, 91, 148);
+    border-radius: 2px rgb(212, 28, 105);
+}
+
+.items-center {
+    align-items: center;
+}
+
+#equal {
+    width: 140px;
+}
